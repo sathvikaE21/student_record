@@ -30,12 +30,3 @@ This project demonstrates full-stack development and DevOps integration using **
 
 ---
 
-## 🚀 How to Run Locally
-
-1. **Start MySQL container**:
-   ```bash
-   docker run --name mysql-db --network student-net \
-   --env MYSQL_ROOT_PASSWORD=Chikky21# \
-   --env MYSQL_DATABASE=student_db \
-   --publish 3308:3306 \
-   --detach mysql:latest
